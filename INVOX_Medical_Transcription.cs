@@ -79,7 +79,7 @@ namespace INVOX_Medical_TranscriptionService
 
         private void OnelapsedTime(object source, ElapsedEventArgs e)
         {
-            if (DateTime.Now.TimeOfDay.Hours == 20 && DateTime.Now.TimeOfDay.Minutes == 34 && !_executing)
+            if (DateTime.Now.TimeOfDay.Hours == 0 && DateTime.Now.TimeOfDay.Minutes == 0 && !_executing)
             {
                 _executing = true;
                 StartJob();
