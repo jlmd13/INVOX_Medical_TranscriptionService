@@ -1,7 +1,7 @@
 ﻿
 namespace INVOX_Medical_TranscriptionService
 {
-    partial class Service1
+    partial class INVOX_Medical_Transcription
     {
         /// <summary> 
         /// Variable del diseñador necesaria.

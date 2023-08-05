@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.33920.266
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INVOX_Medical_TranscriptionService", "INVOX_Medical_TranscriptionService.csproj", "{099563BB-F1B9-45E7-9505-EC7C9AF3BAA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOM", "..\DOM\DOM.csproj", "{94DD8317-4460-43C2-B30C-318360DD28BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "..\Logger\Logger.csproj", "{F9729C72-8283-448C-91D7-4FA12F2D362C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{099563BB-F1B9-45E7-9505-EC7C9AF3BAA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{099563BB-F1B9-45E7-9505-EC7C9AF3BAA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{099563BB-F1B9-45E7-9505-EC7C9AF3BAA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94DD8317-4460-43C2-B30C-318360DD28BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94DD8317-4460-43C2-B30C-318360DD28BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94DD8317-4460-43C2-B30C-318360DD28BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94DD8317-4460-43C2-B30C-318360DD28BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9729C72-8283-448C-91D7-4FA12F2D362C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9729C72-8283-448C-91D7-4FA12F2D362C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9729C72-8283-448C-91D7-4FA12F2D362C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9729C72-8283-448C-91D7-4FA12F2D362C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
