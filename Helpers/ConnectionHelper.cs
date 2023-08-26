@@ -18,7 +18,7 @@ namespace INVOX_Medical_TranscriptionService.Helpers
             transcription.Result = result[1];
             Enum.TryParse(result[0], out TranscriptionStatusEnum transcriptionStatus);
             transcription.Processed = transcriptionStatus.Equals(TranscriptionStatusEnum.Ok);
-
+            transcription.Finished = true;
             if (transcription.Processed)
             {
                 Logger.Logger.Instance.LogMessage($"Transcription with Report ID: {transcription.ReportId} transcripted succesfuly");
